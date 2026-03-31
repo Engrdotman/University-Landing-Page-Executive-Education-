@@ -150,7 +150,7 @@ ul li a:hover::after {
     .mobile-title {
         display: block;
         font-weight: 600;
-        font-size: 24px;
+        font-size: 18px;
         margin-left: 8px;
         white-space: nowrap;
     }
@@ -273,7 +273,7 @@ ul li a:hover::after {
 .under-nav, .nav-left{
     display: flex;
     justify-content: flex-start;
-    gap: 50px;
+    gap: 30px;
 }
 
 .dropdown-menu {
