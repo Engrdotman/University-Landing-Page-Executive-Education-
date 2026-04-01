@@ -2,6 +2,7 @@
     margin: 0px;
     padding:0px;
     box-sizing: border-box;
+    outline: 1px solid red;
 }
 body{
     width: 100%;
@@ -422,9 +423,8 @@ button:hover {
     color: #115e67;
 }
 .section-4{
-    max-width: 100%;
+    max-width: 90%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: flex-end;
     
 }
