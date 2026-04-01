@@ -33,10 +33,6 @@ body{
 .black-hr, .uni-hr{
     border:1px solid black;
 
-.uni-hr{
-    display: flex;
-    flex-wrap: wrap;
-}
 }
 .uni-name-icon{
     width: 100px;
@@ -218,6 +214,12 @@ ul li a:hover::after {
     .nav-right .primary-nav {
         display: block;
     }
+    .primary-nav{
+        gap:10px;
+    }
+    .uni-hr{
+        display: flex;
+    }
 
     /* when menu opens → show all */
     .nav-right.active li {
@@ -344,7 +346,6 @@ ul li a:hover::after {
     justify-content: center;
     align-items: center;
     padding: 30px;
-    max-width: 700px;
     width: 100%;
 }
 .section-3  h2{
@@ -423,7 +424,7 @@ button:hover {
     color: #115e67;
 }
 .section-4{
-    max-width: 90%;
+    max-width: 100%;
     display: flex;
     justify-content: flex-end;
     
