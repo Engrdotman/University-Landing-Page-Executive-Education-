@@ -84,12 +84,13 @@ ul li a:hover::after {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    gap: 20px;
 }
 .nav-right{
     display: flex;
+    flex-wrap:wrap;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
 /* hamburger */
 .menu-toggle {
@@ -150,6 +151,10 @@ ul li a:hover::after {
         font-size: 18px;
         margin-left: 8px;
         white-space: nowrap;
+    }
+    .uni-name-icon{
+        margin-left: 10px;
+        margin-top:10px;
     }
 
     /* remove underline if inside <a> */
