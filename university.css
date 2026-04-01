@@ -88,11 +88,13 @@ ul li a:hover::after {
 }
 .nav-right{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 20px;
 }
 /* hamburger */
 .menu-toggle {
+    margin-right:5px;
     display: none;
     font-size: 28px;
     cursor: pointer;
@@ -306,7 +308,9 @@ ul li a:hover::after {
 
 
 .section-2{
+    max-witdth: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     background-color: rgba(230, 227, 227, 0.888);
     min-height: 100vh;
@@ -323,6 +327,7 @@ ul li a:hover::after {
 .section-3{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     background-color: #115e67;
     padding: 30px 15px;
     justify-content: center;
