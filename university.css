@@ -2,7 +2,6 @@
     margin: 0px;
     padding:0px;
     box-sizing: border-box;
-    outline: 1px solid red;
 }
 body{
     width: 100%;
@@ -30,7 +29,7 @@ body{
     position: fixed;
     z-index: 1000;
 }
-.black-hr, .uni-hr{
+.black-hr,{
     border:1px solid black;
 
 }
@@ -72,7 +71,7 @@ ul li a:hover::after {
     width: 90%;
 }
 .nav-container{
-    gap: 20px;
+    gap: 15px;
 }
 .nav-container #big-font{
     font-weight: 600;
@@ -90,7 +89,7 @@ ul li a:hover::after {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
 }
 /* hamburger */
 .menu-toggle {
@@ -110,7 +109,6 @@ ul li a:hover::after {
     font-size: 24px;
     font-weight: 600;
     color: black;
-    margin-left: 10px;
     white-space: nowrap; /* prevents breaking into two lines */
 }
 /* =========================
@@ -311,7 +309,7 @@ ul li a:hover::after {
 
 
 .section-2{
-    max-witdth: 95%;
+    max-witdth: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -407,7 +405,7 @@ ul li a:hover::after {
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 10px;
-    width: 70px;
+    width: 30%;
     padding: 18px ;
     background: #115e67;
     color: white;
